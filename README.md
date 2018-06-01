@@ -1,8 +1,11 @@
-# DjangoTweetBackend
+# DjangoTweetAppBackend
 Its a django back end project for my android application GettingTweetsApp in which I have used 'tweepy' library for 
 getting list of status object of the latest user_timeline of a twitter user and extract json response from those status objects 
 and passing the json response as a http response to the client in addition to this I have use pyrebase library for pushing the json response 
 into the firebse database.
+
+Requests should be made like:
+http://localhost:8000/tweets/@username/
 
 Sample Responses are like (Json response of most recent user_timeline post) :
 
